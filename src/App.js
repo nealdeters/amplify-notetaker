@@ -4,7 +4,7 @@ import { withAuthenticator } from 'aws-amplify-react'
 import '@aws-amplify/ui/dist/style.css';
 import { createNote, deleteNote, updateNote } from './graphql/mutations'
 import { listNotes } from './graphql/queries'
-import { onCreateNote, onDeleteNote, onUpdateNote } from './graphql/subscriptions'
+// import { onCreateNote, onDeleteNote, onUpdateNote } from './graphql/subscriptions'
 
 const App = () => {
   const [notes, setNotes] = useState([]);

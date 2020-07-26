@@ -14,6 +14,12 @@
         "categories": {
             "auth": {
                 "amplifynotetaker55333cc1": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2uljiy2qcmwef",
+                    "type": "cicd"
+                }
             }
         }
     }
